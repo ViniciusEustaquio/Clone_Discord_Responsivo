@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/header/Header\ Background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header h1 {
+
+    font-family: Luckiest Guy, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 50%;
+    text-align: left;
+    margin: 30px 0 16px 16px;
+
+}
+
+header p {
+    max-width: 100%;
+    text-align: left;
+    margin: 16px 0 16px 16px;
+    color: #FFFFFF;
+    font-family: Open Sans , sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+header button {
+    max-width: 100%;
+    
+}
+
+header div .button-01 {
+    border-style: none;
+    min-width: 381px;
+    min-height: 54px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    font-size: 1rem;
+    font-family: open sans , sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+header div .button-02 {
+    border-style: none;
+    min-width: 381px;
+    min-height: 54px;;
+    background-color:#23272A;
+    border-radius: 28px;
+    font-size: 1rem;
+    font-family: open sans , sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main section .img-cont-01 {
+    max-width: 100%;
+    text-align: center;
+}
+
+main section .title-cont-01 {
+    font-family: open sans , sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 16px;
+}
+
+main section .text-cont-01 {
+    font-family: open sans, sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    max-width: 380px;
+    max-height: 88px;
+    text-align: left;
+    margin-left: 16px;
+}
+
+main .contanier-02 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:#F6F6F6;
+}
+
+main .contanier-02 img {
+    max-width:100%;
+    text-align: center;
+}
+
+main .contanier-02 .title-cont-02 {
+    font-family: open sans, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    max-width: 100%;
+    margin-left: 16px;
+}
+
+main .contanier-02 .text-cont-02 {
+    font-family: open sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
+    margin-left: 16px;
+    text-align: left;
+}
+
+main .contanier-03 img {
+    max-width: 100%;
+    text-align: center;
+}
+
+main .contanier-03 .title-cont-03 {
+    font-family: open sans, sans-serif;
+    max-width: 100%;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 16px;
+}
+
+main .contanier-03 .text-cont-03 {
+    font-family: open sans, sans-serif;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+main .contanier-04 {
+    background-color:#F6F6F6;
+}
+
+main .contanier-04 .title-cont-04 {
+    font-family: Luckiest Guy, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 100%;
+    margin-left: 16px;
+}
+
+main .contanier-04 .text-cont-04 {
+    font-family: open sans, sans-serif;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+main .contanier-04 img {
+    max-width: 100%;
+    margin: 16px;
+}
+
+footer {
+    background-color: #23272A;
+    text-align: center;
+
+}
+
+footer img {
+    max-width: 100%;
+    padding: 100px;
+}
+
+@media screen and (min-width:800px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        max-width: 1500px;
+    }
+
+    header {
+        max-width: 100%;
+    }
+
+    header h1 {
+        text-align: center;
+        margin: 30px auto;
+        font-size: 56px;
+        max-width: 30%;
+    }
+
+    header p {
+        text-align: center;
+        margin: 30px auto;
+        font-size: 16px;
+        max-width: 60%;
+    }
+
+    header .button {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 16px auto;
+        gap: 10px;
+    }  
+
+    .contanier-01 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contanier-01 .title-cont-01 {
+        font-size: 40px;
+        max-width: 50%;
+        
+    }
+
+    main {
+        position: relative;
+        left: 200px;
+    }
+
+    main .contanier-02 {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+    }
+
+    main .contanier-02 .title-cont-02 {
+        max-width: 50%;
+        font-size: 40px;
+        position: relative;
+        left: 100px;
+    }
+
+    main .contanier-02 .text-cont-02 {
+        max-width: 52%;
+        font-size: 16px;
+        position: relative;
+        left: 100px;
+    }
+
+    main .contanier-02 img {
+        position: relative;
+        right: 250px;
+    }
+
+    main .contanier-03 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    main .contanier-03 .title-cont-03 {
+        font-size: 40px;
+        max-width: 50%;
+    }
+
+    main .contanier-03 .text-cont-03 {
+        max-width: 50%;
+    }
+
+    main .contanier-04 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .contanier-04 .title-cont-04 {
+        font-size: 40px;
+        max-width: 50%;
+        text-align: center;
+        position: relative;
+        left: 200px;     
+    }
+
+    main .contanier-04 .text-cont-04 {
+        max-width: 70%;
+        text-align: center;
+        position: relative;
+        left: 100px;
+    }
+
+    main .contanier-04 img {
+        max-width: 50%;
+        position: relative;
+        left: 250px;
+    }
+}
