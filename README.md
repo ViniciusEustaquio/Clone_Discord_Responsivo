@@ -8,4 +8,4 @@ Projeto de HMTL e CSS de clone da lista de vídeos na página do Discord utiliza
 </div>
 
 ## 🤔 O que foi feito nesse projeto:
-- Criar um clone da inicial do Discord utilizando os conceitos de CSS e HTML.
+- Criar um clone da tela inicial do Discord utilizando os conceitos de CSS e HTML.
