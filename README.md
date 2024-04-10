@@ -1,4 +1,4 @@
-## 👨‍💻 Desafio de Projeto CSS: Reproduzindo a inicial do Discord com responsividade no CSS
+## 👨‍💻 Desafio de Projeto CSS: Reproduzindo a tela inicial do Discord com responsividade no CSS
 Projeto de HMTL e CSS de clone da lista de vídeos na página do Discord utilizando CSS.<br>
 
 ## 💻 Tecnologias usadas:
